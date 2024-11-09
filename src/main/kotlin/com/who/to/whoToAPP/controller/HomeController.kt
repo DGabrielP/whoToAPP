@@ -33,7 +33,7 @@ class HomeController {
         return ResponseEntity(
             FailedResponse().apply{
             status = "failed"
-            data = "Hay un error y no es mi culpa"
+            data = "invalid name"
         },
             HttpStatus.FAILED_DEPENDENCY
         )
